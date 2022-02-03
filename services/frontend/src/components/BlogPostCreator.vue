@@ -107,54 +107,51 @@ export default {
 }
 </script>
 <style>
+
+.rteditor {
+  margin-left: 20px;
+  margin-right: 20px;
+}
 .cat-input, .title-input {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
 }
-
 .post-inputs {
-  display: grid;
-  width: 90%;
-  grid-gap: 20px;
-  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
-  padding-bottom: 15px;
-  padding-top: 15px;
-  /* padding: 20px; */
+	display: grid;
+	width: 90%;
+	grid-gap: 20px;
+	grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+	padding-bottom: 15px;
+	padding-top: 15px;
+	/* padding: 20px; */
 }
-
 .ql-editor {
-  height: 72vh;
+	height: 72vh;
 }
-
 .inner-image-input {
-  display: flex;
-  align-items: center;
+	display: flex;
+	align-items: center;
 }
-
 .flex-center {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+	display: flex;
+	align-items: center;
+	justify-content: center;
 }
-
 .post-actions-row {
-  display: flex;
-  justify-content: space-between;
-  padding: 10px;
+	display: flex;
+	justify-content: space-between;
+	padding: 10px;
 }
-
 .ivu-icon-ios-camera-outline {
-  font-size: 16px;
+	font-size: 16px;
 }
-
 .btn-delete {
-  color: #2d8cf0 !important;
-  border: 1px solid #2d8cf0 !important;
+	color: #2d8cf0!important;
+	border: 1px solid #2d8cf0!important;
 }
-
 .btn-delete:hover {
-  color: red !important;
-  border: 1px solid red !important;
+	color: red!important;
+	border: 1px solid red!important;
 }
 </style>
