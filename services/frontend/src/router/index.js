@@ -10,6 +10,7 @@ import Dashboard from "@/views/Dashboard";
 import Profile from "@/views/Profile";
 import Note from "@/views/Note";
 import EditNote from "@/views/EditNote";
+import BlogPostCreator from "@/components/BlogPostCreator";
 
 Vue.use(VueRouter);
 
@@ -53,6 +54,13 @@ const routes = [
     name: 'EditNote',
     component: EditNote,
     meta: {requiresAuth: true},
+    props: true,
+  },
+  {
+    path: '/blog',
+    name: 'Blog',
+    component: BlogPostCreator,
+    meta: {requiresAuth: false},
     props: true,
   }
 ]
